@@ -21,7 +21,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       virtualbox.cpus = 1
     end
     selenium01.vm.box = "ubuntu/trusty64"
-    selenium01.vm.host_name = "wd.selenium01.vm"
+    selenium01.vm.host_name = "selenium01.vm"
     selenium01.vm.provision "shell", path: "shell/bootstrap_ubuntu.sh"
   end
 
