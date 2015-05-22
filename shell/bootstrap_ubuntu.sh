@@ -46,7 +46,7 @@ fi
 
 # Start Xvfb, Chrome, and Selenium in the background
 export DISPLAY=:10
-cd /vagrant
+cd
 
 echo "Starting Xvfb ..."
 Xvfb :10 -screen 0 1366x768x24 -ac &
